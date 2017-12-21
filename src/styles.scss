@@ -1,7 +1,4 @@
-@import 'reset';
+@import 'styles/reset';
+@import 'styles/variables';
+@import 'styles/common';
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-* {
-  font-family: 'Roboto', Helvetica, sans-serif;
-}
