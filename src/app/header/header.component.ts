@@ -32,7 +32,13 @@ export class HeaderComponent implements OnInit {
     { value: '2017Q4', viewValue: '2017Q4' }
   ];
 
+  isComparing = false;
+
   constructor() {}
 
   ngOnInit() {}
+
+  addComparison() {
+    this.isComparing = !this.isComparing;
+  }
 }
